@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bar } from '../../componets'
+import { Bar } from '@/componets'
 
 const Principal = (props) => {
     const { children } = props;

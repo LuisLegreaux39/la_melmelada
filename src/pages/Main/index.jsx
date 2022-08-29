@@ -1,8 +1,10 @@
-import { Principal  } from '../../layouts';
+import { Principal  } from '@/layouts';
+import Router from '@/Routes';
+
 
 const Main = () => {
   return <Principal>
-    hello mundo
+    <Router />
   </Principal>
 }
 
